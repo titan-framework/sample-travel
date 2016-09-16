@@ -60,9 +60,9 @@ echo "Done!"
 
 echo "Creating folders to instance (file, backup and cache)..."
 
-mkdir -p /var/www/app/file
-mkdir -p /var/www/app/cache
-mkdir -p /var/www/app/backup
+mkdir -p /var/www/app/manager/file
+mkdir -p /var/www/app/manager/cache
+mkdir -p /var/www/app/manager/backup
 
 echo "Done!"
 

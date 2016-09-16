@@ -1,6 +1,7 @@
-app/backup
-app/cache
-app/file
-app/vendor
+app/manager/backup
+app/manager/cache
+app/manager/file
+app/manager/vendor
+app/manager/autoload.php
 box/.vagrant
 box/vagrant.log
