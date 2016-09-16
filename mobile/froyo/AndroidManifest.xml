@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carromeu.titan.sample.travel"
+    android:versionCode="1"
+    android:versionName="14.06-1-alpha">
+
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19" />
+    
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/> 
+	<uses-feature android:name="android.hardware.telephony.cdma" android:required="false"/> 
+	<uses-feature android:name="android.hardware.telephony.gsm" android:required="false"/>
+	<uses-feature android:name="android.hardware.location" android:required="false" />
+	<uses-feature android:name="android.hardware.location.gps" android:required="false" />
+	<uses-feature android:name="android.hardware.camera" android:required="false" />
+	<uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    
+    <permission android:name="com.example.gcm.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.carromeu.titan.sample.travel.Travel"
+        android:allowBackup="true"
+        android:icon="@drawable/button"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Titan.Default"
+        android:logo="@drawable/icon">
+        
+        <activity
+            android:name="com.carromeu.titan.sample.travel.SplashActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.carromeu.titan.sample.travel.RegisterActivity"
+            android:theme="@style/Theme.Titan.Main"
+            android:label=""
+            android:logo="@drawable/register">
+        </activity>
+        
+        <activity
+            android:name="com.carromeu.titan.sample.travel.AlertActivity"
+            android:label="Notificações"
+            android:theme="@style/Theme.Titan.Main"
+            android:logo="@drawable/indicator_closed">
+        </activity>
+        
+        <activity
+            android:name="com.carromeu.titan.sample.travel.AboutActivity"
+            android:label="Sobre">
+        </activity>
+        
+        <activity
+            android:name="com.carromeu.titan.sample.travel.EmbassyActivity"
+            android:label="Embaixadas"
+            android:theme="@style/Theme.Titan.Main"
+            android:logo="@drawable/indicator_closed">
+        </activity>
+        
+        <activity
+            android:name="com.carromeu.titan.sample.travel.EmbassyViewActivity"
+            android:label="Sobre">
+        </activity>
+        
+        <receiver
+            android:name="com.carromeu.titan.sample.travel.service.GoogleCloudMessagingReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.carromeu.titan.sample.travel" />
+            </intent-filter>
+        </receiver>
+        
+        <service android:name="com.carromeu.titan.sample.travel.service.GoogleCloudMessagingService" />
+        
+    </application>
+
+</manifest>

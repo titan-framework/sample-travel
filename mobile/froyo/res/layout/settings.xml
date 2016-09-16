@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp">
+	
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical"
+	        android:paddingTop="10dp">
+	
+	        <ImageView
+	            android:id="@+id/access_lock"
+	            android:layout_width="64dp"
+	            android:layout_height="64dp"
+	            android:src="@drawable/lock"
+	            android:layout_gravity="center_horizontal" 
+			/>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:padding="15dp">
+	
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="16dp"
+	                android:text="ALTERAR CREDENCIAIS DE ACESSO"
+	                android:textSize="24sp"
+	                android:textStyle="bold"
+	                android:gravity="center_horizontal"
+				/>
+	
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="12dp"
+	                android:text="Você pode alterar as credênciais de acesso que autorizam este dispositivo a consultar informações do Titan. Lembre-se que estas credenciais determinam de qual usuário serão sincronizadas informações."
+	                android:textSize="18sp"
+				/>
+	            
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="12dp"
+	                android:text="Para altera-las, efetue os seguintes passos:"
+	                android:textSize="18sp"
+				/>
+	
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="12dp"
+	                android:layout_marginLeft="10dp"
+	                android:textStyle="bold"
+	                android:text="1) Acesse o site http://titan.cnpgc.embrapa.br/ com seu login e senha;"
+	                android:textSize="18sp"
+				/>
+	
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="12dp"
+	                android:layout_marginLeft="10dp"
+	                android:textStyle="bold"
+	                android:text="2) Acesse o seu perfil e clique no botão “Dispositivos Móveis”;"
+	                android:textSize="18sp"
+				/>
+	
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="12dp"
+	                android:layout_marginLeft="10dp"
+	                android:textStyle="bold"
+	                android:text="3) Adicione um novo dispositivo, seguindo as instruções exibidas na tela; e"
+	                android:textSize="18sp"
+				/>
+	            
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="12dp"
+	                android:layout_marginLeft="10dp"
+	                android:textStyle="bold"
+	                android:text="4) Voltando a este dispositivo, clique no botão azul abaixo deste texto para que este aplicativo, utilizando a câmera do seu smartphone ou tablet, leia o código de barras exibido (QR Code)."
+	                android:textSize="18sp"
+				/>
+	            
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="12dp"
+	                android:text="Após o dispositivo reconhecer o código, o aplicativo irá alterar as credenciais e re-sincronizar os dados do usuário. Este procedimento pode demorar alguns minutos."
+	                android:textSize="18sp"
+				/>
+				
+				<Button
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:onClick="callQRCodeScan"
+				    android:text="Ler Código de Barras\n(QR Code)"
+				    style="@style/TitanButton"
+		        	android:background="@drawable/button_blue"
+		        	android:layout_marginBottom="12dp"
+				/>
+				
+				<Button
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:onClick="showManualInsertionAlert"
+				    android:text="Inserir Código Manualmente"
+				    style="@style/TitanButton"
+		        	android:background="@drawable/button_purple"
+				/>
+				
+			</LinearLayout>
+		
+	    </LinearLayout>
+    
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/stripes_background"
+        android:gravity="center"
+        android:orientation="vertical"
+	/>
+
+</RelativeLayout>

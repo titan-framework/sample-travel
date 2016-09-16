@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form table="travel.embassy" primary="id">
+	<go-to flag="success" action="[same]" />
+	<go-to flag="fail" action="[same]" />
+	<field type="Fck" column="description" label="Informações" required="true" />
+</form>

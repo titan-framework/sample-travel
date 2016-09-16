@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-mapping>
+	<action
+		name="list"
+		label="Listar Itens"
+		default="true">
+		<menu action="create" />
+		<menu function="search" />
+	</action>
+	
+	<action
+		name="create"
+		label="Inserir Item">
+		<menu function="save" label="Criar Item" />
+		<menu action="list" image="close.png" label="Cancelar" />
+	</action>
+	
+	<action
+		name="edit"
+		label="Editar Item">
+		<menu function="save" />
+	</action>
+	
+	<action
+		name="delete"
+		label="Apagar Item">
+		<menu function="delete" />
+		<menu action="list" image="close.png" />
+	</action>
+	
+	<action
+		name="view"
+		label="Visualizar Item">
+		<menu function="print" />
+	</action>
+	
+	<action
+		name="version"
+		label="Version Control | pt_BR: Controle de Versões | es_ES: El control de versiones">
+		<menu function="search" />
+		<menu action="list" />
+	</action>
+</action-mapping>

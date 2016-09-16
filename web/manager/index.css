@@ -1,0 +1,40 @@
+body
+{
+	margin: 0;
+	background: #F0F0F0;
+	width: 100%;
+	height: 100%;
+}
+
+div
+{
+	width: 100%;
+	margin: 40px auto;
+	text-align: center;
+}
+
+div.buttons img
+{
+	margin: 0px 20px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+div.info
+{
+	font-family: 'Lobster Two', cursive;
+	font-size: 36px;
+}
+
+div#partners
+{
+	margin-top: 60px;
+	height: 150px;
+	vertical-align: middle;
+}
+
+div#partners img
+{
+	margin: 0px 30px;
+	vertical-align: middle;
+}

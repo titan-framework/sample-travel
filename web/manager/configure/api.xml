@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api-mapping>
+	<application
+		name="mobile"
+		auth="APP|CLIENT-AS-USER"
+		token="xcN48zoAJ1a06I4403p0NS81inVWD8zg2B6OytXoik7ydSPu6bRztTQ3k957a2IQ"
+		request-timeout="36000"
+		protocol="Embrapa"
+		gcm-api-key="AIzaSyCk9r7pNd5c5qNQzEEVyTDJc6OsQHGwiFw"
+		send-alerts="true"
+	/>
+	
+	<application
+		name="portal"
+		auth="APP|USER-BROWSER"
+		token="gkyN4C9pFbRGVWj0yek1EgjxFzVCl4yTXv8D2yBkiAN2KyT5rIRIVFAHBiS4t114"
+		request-timeout="36000"
+		protocol="Embrapa">
+		<endpoint method="POST" uri="/social" />
+		<endpoint method="GET" uri="/embassy/list/([0-9]+)" />
+	</application>
+</api-mapping>

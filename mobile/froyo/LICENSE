@@ -1,0 +1,25 @@
+﻿Copyright © 2014, Titan Framework. All rights reserved.
+
+This model-application is a software artfact of Titan Framework [1], a open source tool created and maintened by Federal University of Mato Grosso do Sul (UFMS) [2], Brazilian Agricultural Research Corporation (Embrapa) [3] and Olimpo [4].
+
+This software has been developed by Camilo Carromeu <camilo@carromeu.com> and Jairo Ricardes Rodrigues Filho <jairocgr@gmail.com> in Laboratory for Precision Livestock, Environment and Software Engineering (PLEASE Lab) [5] of Embrapa Beef Cattle [6] at Campo Grande - MS - Brazil
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the Embrapa, UFMS or Olimpo (nor the names of PLEASE Lab and LEDES [7]) may be used to endorse or promote products derived from this software without specific prior written permission.
+
+4. This software, as well as derived products, should use Titan's Stamp at communication, packaging and/or products.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+[1] http://www.titanframework.com
+[2] http://www.ufms.br
+[3] http://www.embrapa.br
+[4] http://www.olimpotech.com
+[5] http://please.cnpgc.embrapa.br
+[6] http://www.cnpgc.embrapa.br
+[7] http://www.ledes.net

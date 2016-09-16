@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<titan-configuration
+	name="Embaixadas Brasileiras"
+	description=""
+	url="http://localhost:8090/manager/"
+	e-mail="camilo@carromeu.com"
+	login-url="http://localhost:8090/manager/index.php?target=login"
+	core-path="../../titan/"
+	cache-path="cache/"
+	doc-path="doc/"
+	debug-mode="true"
+	session="f8bccc8ac867129d6f0e3dad50ff118e"
+	language="pt_BR, en_US"
+	use-chat="false"
+	all-sections="true">
+	
+	<database
+		sgbd="PostgreSQL"
+		host="localhost"
+		name="travel"
+		user="titan"
+		port="5432"
+		password=""
+		schema="titan"
+	/>
+	
+	<security 
+		xml-path="configure/security.xml"
+		hash="7b1e98bf61324a40fbd1d4a373dd5447"
+		timeout="1800"
+	/>
+	
+	<search
+		hash="95142eed3c6c74c5062d617b858cd2d4"
+		timeout="15552000"
+	/>
+	
+	<archive 
+		xml-path="configure/archive.xml"
+		data-path="file/"
+	/>
+	
+	<business-layer 
+		xml-path="configure/business.xml" 
+	/>
+	
+	<skin
+		logo="image/banner.png"
+		icon="favicon.ico"
+	/>
+	
+	<mail
+		xml-path="configure/mail.xml"
+	/>
+	
+	<version-control
+		schema="version"
+	/>
+
+	<log
+		db-path="cache/log.db"
+		xml-path="configure/log.xml"
+	/>
+	
+	<social
+		xml-path="configure/social.xml"
+	/>
+	
+	<api
+		xml-path="configure/api.xml"
+	/>
+	
+	<mobile
+		label="Instale o Embaixadas Brasileiras pelo Google Play"
+		android="https://play.google.com/store/apps/details?id=com.carromeu.titan.sample.travel"
+	/>
+	
+	<alert
+		xml-path="configure/alert.xml"
+	/>
+	
+	<schedule
+		hash="b1ed483fcef85ce7778248f5c68b12f5"
+	/>
+	
+	<friendly-url
+		change-password="password"
+		disable-alerts="alert"
+		rss="rss"
+	/>
+	
+	<backup
+		path="backup/"
+		validity="86400"
+		timeout="86400"
+	/>
+</titan-configuration>

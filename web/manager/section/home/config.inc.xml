@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-mapping>
+	<directive name="_NEED_UPDATE_AFTER_DAYS_" value="0" />
+	
+	<action
+		name="profile"
+		label="Dados Pessoais"
+		default="true">
+		<menu function="js" js="showMobileDevices ()" image="mobile.png" label="Mobile Devices | pt_BR: Dispositivos Móveis" />
+		<menu action="personal" image="edit.png" />
+	</action>
+	
+	<action
+		name="personal"
+		label="Editar Dados Pessoais">
+		<menu function="js" js="showMobileDevices ()" image="mobile.png" label="Mobile Devices | pt_BR: Dispositivos Móveis" />
+	</action>
+</action-mapping>

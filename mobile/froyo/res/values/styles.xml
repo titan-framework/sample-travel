@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <style name="Theme.Titan.Main" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_titan</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_titan</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Titan</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Titan</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Titan</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Titan</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Titan</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Titan</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Titan</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Titan</item>
+        <item name="actionBarStyle">@style/ActionBar.Titan.Main</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Titan.Main</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_titan</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_titan</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_titan</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_titan</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Titan</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Titan</item>
+        <item name="actionBarWidgetTheme">@style/Theme.Titan.Widget</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.Titan.Widget</item>
+		<item name="homeAsUpIndicator">@null</item>
+		<item name="android:homeAsUpIndicator">@null</item>
+    </style>
+    
+    <style name="ActionBar.Titan.Main" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_background_textured_titan</item>
+        <item name="android:background">@drawable/ab_background_textured_titan</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_titan</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_titan</item>
+        <item name="backgroundSplit">@drawable/ab_background_textured_titan</item>
+        <item name="android:backgroundSplit">@drawable/ab_background_textured_titan</item>
+        <item name="progressBarStyle">@style/ProgressBar.Titan</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Titan</item>
+        <item name="displayOptions">showHome|useLogo|showTitle</item>
+        <item name="android:displayOptions">showHome|useLogo|showTitle</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:minWidth">0dip</item>
+    </style>
+    
+    <style name="Theme.Titan.Default" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_titan</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_titan</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Titan</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Titan</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Titan</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Titan</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Titan</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Titan</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Titan</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Titan</item>
+        <item name="actionBarStyle">@style/ActionBar.Titan.Default</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Titan.Default</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_titan</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_titan</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_titan</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_titan</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Titan</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Titan</item>
+        <item name="actionBarWidgetTheme">@style/Theme.Titan.Widget</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.Titan.Widget</item>
+		<item name="homeAsUpIndicator">@drawable/indicator</item>
+		<item name="android:homeAsUpIndicator">@drawable/indicator</item>
+    </style>
+    
+    <style name="ActionBar.Titan.Default" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_background_textured_titan</item>
+        <item name="android:background">@drawable/ab_background_textured_titan</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_titan</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_titan</item>
+        <item name="backgroundSplit">@drawable/ab_background_textured_titan</item>
+        <item name="android:backgroundSplit">@drawable/ab_background_textured_titan</item>
+        <item name="progressBarStyle">@style/ProgressBar.Titan</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Titan</item>
+        <item name="displayOptions">homeAsUp|showHome|useLogo|showTitle</item>
+        <item name="android:displayOptions">homeAsUp|showHome|useLogo|showTitle</item>
+    </style>
+    
+    <style name="ProgressBar.Titan" parent="@style/Widget.Sherlock.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_titan</item>
+    </style>
+
+    <style name="PopupMenu.Titan" parent="@style/Widget.Sherlock.Light.ListPopupWindow">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_titan</item>	
+    </style>
+	
+    <style name="DropDownListView.Titan" parent="@style/Widget.Sherlock.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_titan</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Titan" parent="@style/Widget.Sherlock.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_titan</item>
+    </style>
+	
+    <style name="DropDownNav.Titan" parent="@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_titan</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_titan</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_titan</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Titan" parent="@style/Widget.Sherlock.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_titan</item>
+    </style>
+    
+    <style name="Theme.Titan.Widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/PopupMenu.Titan</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Titan</item>
+    </style>
+    
+    <style name="TitanButton">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">5dp</item>
+	    <item name="android:paddingLeft">20dp</item>
+	    <item name="android:paddingRight">20dp</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+
+</resources>

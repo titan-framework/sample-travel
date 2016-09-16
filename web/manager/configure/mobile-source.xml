@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobile-source>
+	<application name="Travel" package="com.carromeu.titan.sample.travel">
+		<entity active="true" model="Embassy" section="embassy" xml="api-get.xml" table="embassy" assets="true" />
+	</application>
+</mobile-source>

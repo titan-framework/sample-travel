@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-br" ng-app="titan">
+	<head>
+		<meta charset="utf-8">
+		<title>Embaixadas Brasileiras</title>
+		<script>
+			document.write ('<base href="' + document.location + '" />');
+		</script>
+		
+		<link rel="stylesheet" href="css/material.min.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		<link rel="stylesheet" href="css/general.css" />
+		<link rel="stylesheet" href="css/google-plus-signin.css" />
+		
+		<script src="js/library/material.min.js"></script>
+		<script src="js/library/hmac-sha1.js"></script>
+		<script src="js/library/blowfish.js"></script>
+		<script src="js/library/md5.js"></script>
+		<script src="js/library/angular.min.js"></script>
+		<script src="js/library/angular-sanitize.min.js"></script>
+		<script src="js/library/angular-route.min.js"></script>
+		<script src="js/library/google-plus-signin.js"></script>
+		<script src="js/library/ngStorage.min.js"></script>
+		<script src="js/titan.js"></script>
+		<script src="js/settings.js"></script>
+		<script src="js/business.js"></script>
+		<script src="js/controller/profile-controller.js"></script>
+		<script src="js/controller/home-controller.js"></script>
+		<script src="js/controller/embassy-controller.js"></script>
+		<script src="js/service/ws-services.js"></script>
+		<script src="js/service/login-services.js"></script>
+		<script src="js/service/embassy-services.js"></script>
+	</head>
+	<body>
+	
+		<!-- Header -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout__header-row">
+					<!-- Title -->
+					<span class="mdl-layout-title">Embaixadas Brasileiras</span>
+					
+					<!-- Add spacer, to align navigation to the right -->
+					<div class="mdl-layout-spacer"></div>
+					
+					<!-- Navigation. We hide it in small screens. -->
+					<nav class="mdl-navigation mdl-layout--large-screen-only">
+						<a class="mdl-navigation__link" href="">Link</a>
+						<a class="mdl-navigation__link" href="">Link</a>
+						<a class="mdl-navigation__link" href="">Link</a>
+						<a class="mdl-navigation__link" href="">Link</a>
+					</nav>
+				</div>
+			</header>
+			<div class="mdl-layout__drawer">
+				<header class="demo-drawer-header" ng-controller="ProfileController">
+					<img src="image/user.jpg" class="demo-avatar">
+					<div class="demo-avatar-info">
+						{{user.name}}<br />
+						{{user.mail}}
+					</div>
+				</header>
+				<nav class="mdl-navigation">
+					<a class="mdl-navigation__link" href="embassy">Embaixadas</a>
+					<a class="mdl-navigation__link" href="">Link</a>
+					<a class="mdl-navigation__link" href="">Link</a>
+					<a class="mdl-navigation__link" href="">Link</a>
+				</nav>
+			</div>
+			<main class="mdl-layout__content">
+				
+				<ng-view />
+				
+				<footer class="mdl-mini-footer">
+					<div class="mdl-mini-footer__left-section">
+						<div class="mdl-logo">Title</div>
+						<ul class="mdl-mini-footer__link-list">
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Privacy & Terms</a></li>
+						</ul>
+					</div>
+				</footer>
+					
+			</main>
+		</div>
+		
+	</body>
+</html>

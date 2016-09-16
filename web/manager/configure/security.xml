@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security-mapping>
+	<user-type 
+		label="Usuário"
+		name="user"
+		description="Usuários do sistema."
+		type="private"
+		form-modify="modify.xml"
+		profile="home/profile"
+	/>
+</security-mapping>

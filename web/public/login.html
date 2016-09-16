@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang="pt-br" ng-app="titan">
+	<head>
+		<meta charset="utf-8">
+		<title>Embaixadas Brasileiras</title>
+		<script>
+			document.write ('<base href="' + document.location + '" />');
+		</script>
+		
+		<link rel="stylesheet" href="css/material.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		<link rel="stylesheet" href="css/google-plus-signin.css" />
+		
+		<script src="js/library/material.min.js"></script>
+		<script src="js/library/hmac-sha1.js"></script>
+		<script src="js/library/blowfish.js"></script>
+		<script src="js/library/md5.js"></script>
+		<script src="js/library/angular.min.js"></script>
+		<script src="js/library/angular-sanitize.min.js"></script>
+		<script src="js/library/angular-route.min.js"></script>
+		<script src="js/library/google-plus-signin.js"></script>
+		<script src="js/library/ngStorage.min.js"></script>
+		<script src="js/titan.js"></script>
+		<script src="js/settings.js"></script>
+		<script src="js/controller/login-controller.js"></script>
+		<script src="js/service/ws-services.js"></script>
+		<script src="js/service/login-services.js"></script>
+		<style>
+		.demo-card-square.mdl-card
+		{
+			margin: 50px auto;
+			width: 320px;
+			height: 320px;
+		}
+		.demo-card-square > .mdl-card__title
+		{
+			color: #FFF;
+			background:	url('image/login.png') bottom left 15% no-repeat #46B6AC;
+		}
+		</style>
+	</head>
+	<body ng-controller="LoginController">
+		
+		<div class="demo-card-square mdl-card mdl-shadow--2dp">
+			<div class="mdl-card__title mdl-card--expand">
+				<h2 class="mdl-card__title-text">Login</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				Utilize sua conta em redes sociais para acessar.
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<google-plus-signin clientid="{{google}}" language="pt-BR"></google-plus-signin>
+			</div>
+		</div>
+		
+	</body>
+</html>

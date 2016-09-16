@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE"
+    android:gravity="center"
+    android:orientation="vertical">
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+	    android:layout_marginRight="15dp"
+	    android:layout_marginLeft="15dp"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Para começar, selecione a conta do Google que deseja utilizar:"
+	        android:textSize="28sp"
+	        android:textStyle="bold"
+	        android:textColor="#333333"
+	        android:gravity="left"
+	        android:layout_marginBottom="20dp"
+	    />
+           
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:listSelector="@drawable/selector"
+		    android:cacheColorHint="@android:color/transparent"
+		    android:scrollingCache="false"
+		    android:drawSelectorOnTop="false"
+			android:dividerHeight="10dp"
+			android:divider="@null"
+		/>
+        
+	</LinearLayout>
+
+    <Button
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="addGoogleAccount"
+	    android:text="+ Adicionar uma Conta do Google"
+	    style="@style/TitanButton"
+       	android:background="@drawable/button_black"
+       	android:layout_margin="15dp"
+       	android:layout_alignParentBottom="true"
+	/>
+
+</RelativeLayout>

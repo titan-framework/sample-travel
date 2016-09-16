@@ -1,0 +1,53 @@
+﻿<style>
+.demo-card-square.mdl-card
+{
+	width: 320px;
+	height: 320px;
+}
+.demo-card-square > .mdl-card__title
+{
+	color: #FFF;
+	background:	url('image/login.png') bottom left 15% no-repeat #46B6AC;
+}
+</style>
+<div class="mdl-grid" style="margin: 30px auto;">
+	
+	<div class="mdl-layout-spacer"></div>
+	<div class="mdl-cell mdl-cell--6-col mdl-typography--text-center">
+	
+		<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" style="width: 100%;">
+			<thead>
+				<tr>
+					<th class="mdl-data-table__cell--non-numeric">País</th>
+					<th class="mdl-data-table__cell--non-numeric">Infomações</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="embassy in embassies | filter: filter">
+					<td class="mdl-data-table__cell--non-numeric">{{embassy.country}}</td>
+					<td class="mdl-data-table__cell--non-numeric"><div ng-bind-html="embassy.description | sanitize"></div></td>
+				</tr>
+			</tbody>
+		</table>
+	
+	</div>
+	<div class="mdl-cell mdl-cell--2-col">
+	
+		<div class="demo-card-square mdl-card mdl-shadow--2dp">
+			<div class="mdl-card__title mdl-card--expand">
+				<h2 class="mdl-card__title-text">Filtrar</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				
+				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+					<input class="mdl-textfield__input" type="text" ng-model="filter" id="filter" />
+					<label class="mdl-textfield__label" for="filter">Filtrar...</label>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	<div class="mdl-layout-spacer"></div>
+	
+</div>

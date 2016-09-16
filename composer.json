@@ -1,0 +1,21 @@
+{
+	"name": "titan-framework/sample-travel",
+	"description": "Functional instance example using the Titan sync data with a Android mobile app.",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Camilo Carromeu",
+			"email": "camilo@carromeu.com",
+			"homepage": "http://pandora.cnpgc.embrapa.br/staff/Camilo-Carromeu",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=5.2,<7.0"
+	},
+	"config": {
+		"vendor-dir": "app/vendor"
+	}
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view table="travel.embassy" primary="id" paginate="30">
+	<field type="String" column="country" label="País" />
+	<field type="Select" column="_user" label="Último Autor" link-column="_id" link-table="_user" link-view="[_name] ([url])" />
+	<field type="Date" column="_update" label="Última Alteração" show-time="true" id="_UPDATE_" />
+	<order id="_UPDATE_" invert="true" />
+	<icon function="[ajax]" action="view" image="view.gif" label="Show | pt_BR: Visualizar | es_ES: Mostrar" default="true" />
+	<icon function="[ajax]" action="edit" image="edit.gif" label="Edit | pt_BR: Editar | es_ES: Editar" />
+	<icon action="delete" image="delete.gif" label="Delete | pt_BR: Apagar | es_ES: Eliminar" />
+	<icon action="version" label="Version Control | pt_BR: Controle de Versões | es_ES: El control de versiones" />
+</view>
+<search table="travel.embassy">
+	<field type="String" column="country" label="País" />
+	<field type="String" column="description" label="Informações" />
+</search>

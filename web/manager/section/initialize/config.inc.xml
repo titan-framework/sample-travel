@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-mapping>
+	<action
+		name="start"
+		label="Inicializador"
+		default="true">
+	</action>
+</action-mapping>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert-mapping>
+	<alert id="_UPDATE_PROFILE_" message="Faz mais de [DAYS] dias que você não atualiza seus dados pessoais." go="titan.php?target=body&toSection=[SECTION]&toAction=[ACTION]" icon="titan.php?target=loadFile&file=interface/alert/warning.gif" />
+	<alert id="_TEST_W_" message="[MESSAGE]" go="titan.php?target=body" icon="titan.php?target=loadFile&file=interface/alert/warning.gif" />
+	<alert id="_TEST_I_" message="[MESSAGE]" go="titan.php?target=body" icon="titan.php?target=loadFile&file=interface/alert/info.gif" />
+	<alert id="_TEST_C_" message="[MESSAGE]" go="titan.php?target=body" icon="titan.php?target=loadFile&file=interface/alert/confirm.gif" />
+	<alert id="_TEST_S_" message="[MESSAGE]" go="titan.php?target=body" icon="titan.php?target=loadFile&file=interface/alert/security.gif" />
+</alert-mapping>

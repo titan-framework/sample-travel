@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section-mapping>
+	<section 
+		label="Home | pt_BR: Início"
+		name="home"
+		component="global.home"
+	/>
+	
+	<section
+		label="Embassies | pt_BR: Embaixadas"
+		name="embassy"
+		component="global.generic"
+		default="true"
+	/>
+	
+	<section 
+		label="Tests | pt_BR: Testes"
+		name="test"
+	/>
+	
+	<section 
+		label="Initialize | pt_BR: Inicializar"
+		name="initialize"
+		component="local/component/sample.initialize/"
+		father="test"
+	/>
+	
+	<section 
+		label="Base of Files | pt_BR: Banco de Arquivos"
+		name="archive"
+		component="global.archive"
+	/>
+	
+	<section 
+		label="Users | pt_BR: Usuários"
+		name="user"
+		component="global.userPrivate"
+	/>
+	
+	<section 
+		label="Access Control | pt_BR: Controle de Acesso"
+		name="access"
+		component="global.group"
+		admin="true"
+	/>
+</section-mapping>

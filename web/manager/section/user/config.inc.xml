@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-mapping>
+	<directive name="_TYPE_" value="user" />
+	
+	<action
+		name="list"
+		label="Listar Usuários"
+		default="true">
+		<menu function="search" />
+		<menu action="graph" />
+		<menu function="rss" />
+	</action>
+	
+	<action
+		name="view"
+		label="Visualizar Usuário">
+		<menu action="list" />
+		<menu function="print" />
+		<menu action="delete" />
+	</action>
+
+	<action
+		name="graph"
+		label="Gráficos">
+		<menu function="search" />
+		<menu action="list" />
+	</action>
+</action-mapping>

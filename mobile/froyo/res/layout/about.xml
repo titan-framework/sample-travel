@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="5dp">
+       
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<ImageView
+			android:id="@+id/partners"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_margin="5dp"
+			android:src="@drawable/logos"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="center_horizontal"
+			android:text="Aplicativo desenvolvido no âmbito da disciplina de Engenharia de Software, lecionada pela professora Débora Maria Barroso Paiva, dos programas de pós-graduação strictu sensu da Faculdade de Computação (FACOM) da Universidade Federal de Mato Grosso do Sul (UFMS)."
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="center_horizontal"
+			android:text="Este é um artefato de software do Titan Framework, uma ferramenta de código aberto desenvolvida e mantida pela parceria entre a Universidade Federal de Mato Grosso do Sul (UFMS), a Empresa Brasileira de Pesquisa Agropecuária (Embrapa) e a empresa Olimpo."
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:gravity="center_horizontal"
+			android:text="Mais informações sobre o Titan Framework:"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:layout_marginBottom="5dp"
+			android:textStyle="bold"
+			android:text="http://cloud.cnpgc.embrapa.br/titan"
+		/>
+		
+		<ImageView
+			android:id="@+id/labs"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_margin="5dp"
+			android:src="@drawable/ledes_please"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="center_horizontal"
+			android:text="Este aplicativo foi desenvolvido no Laboratory for Precision Livestock, Environment and Software Engineering (PLEASE Lab) da Embrapa Gado de Corte, em Campo Grande - MS - Brazil, e é um modelo para o desenvolimento de aplicativos para dispositivos móveis rodando Android (versão 8 ou superior) integrados a instâncias do Titan."
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center_horizontal"
+			android:text="Autores"
+			android:textSize="18dp"
+			android:textStyle="bold"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center_horizontal"
+			android:text="Camilo Carromeu"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="camilo@carromeu.com"
+			android:textSize="10dp"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center_horizontal"
+			android:text="Diogo Ferreira"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="diogofs1@gmail.com"
+			android:textSize="10dp"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center_horizontal"
+			android:text="Fabricio Munhoz"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="fabricioyukio@gmail.com"
+			android:textSize="10dp"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center_horizontal"
+			android:text="Gilson Vargas"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="gilsonvargas@gmail.com"
+			android:textSize="10dp"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center_horizontal"
+			android:text="Tatiane Moura"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="tatiane.ufms@gmail.com"
+			android:textSize="10dp"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center_horizontal"
+			android:text="Jairo Ricardes Rodrigues Filho"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="jairocgr@gmail.com"
+			android:textSize="10dp"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="15dp"
+			android:layout_marginBottom="5dp"
+			android:gravity="center_horizontal"
+			android:text="Licença"
+			android:textSize="18dp"
+			android:textStyle="bold"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="fill_horizontal"
+			android:text="Copyright © 2014, Titan Framework. All rights reserved."
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="fill_horizontal"
+			android:text="Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:"
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="fill_horizontal"
+			android:text="1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer."
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="fill_horizontal"
+			android:text="2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution."
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="fill_horizontal"
+			android:text="3. Neither the name of the Embrapa, UFMS or Olimpo (nor the names of PLEASE Lab and LEDES) may be used to endorse or promote products derived from this software without specific prior written permission."
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="fill_horizontal"
+			android:text="4. This software, as well as derived products, should use Titan's Stamp at communication, packaging and/or products."
+		/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:gravity="fill_horizontal"
+			android:text="THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+		/>
+	
+	</LinearLayout>
+	
+</ScrollView>

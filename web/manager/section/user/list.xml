@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search table="_user">
+	<field type="String" column="_name" label="Nome" />
+	<field type="Enum" column="gender" label="Sexo">
+		<item value="_M_" label="Masculino" />
+		<item value="_F_" label="Feminino" />
+	</field>
+</search>
+<view table="_user" primary="_id" paginate="30">
+	<field type="String" column="_name" label="Nome" />
+	<field type="String" column="_email" label="e-Mail" />
+	<field type="Enum" column="gender" label="Sexo">
+		<item value="_M_" label="Masculino" />
+		<item value="_F_" label="Feminino" />
+	</field>
+	<field type="Date" column="birthdate" label="Data de Nascimento" show-age="true" />
+	<icon action="view" image="view.gif" label="Visualizar Dados do Usuário" default="true" />
+</view>

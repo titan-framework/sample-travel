@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api table="travel.embassy" primary="id" code="code">
+	<field type="String" column="country" label="País" />
+	<field type="Fck" column="description" label="Informações" />
+	<field type="Date" column="_update" show-time="true" id="_API_UPDATE_UNIX_TIMESTAMP_" on-api-as="last_change" />
+</api>
