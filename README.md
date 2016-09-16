@@ -29,4 +29,4 @@ Your Titan instance sample is running at http://localhost:8090. To access, use "
 More Information
 ----------------
 
-Read [Titan Cookbook](document/Cookbook.pdf) (*in portuguese*) is the best way to start using it. You can also access our [mailing list](https://groups.google.com/forum/#!forum/titan-framework) to learn advanced features and answer questions.
+Read [Titan Cookbook](https://github.com/titan-framework/docs/raw/master/Cookbook.pdf) (*in portuguese*) is the best way to start using it. You can also access our [mailing list](https://groups.google.com/forum/#!forum/titan-framework) to learn advanced features and answer questions.
